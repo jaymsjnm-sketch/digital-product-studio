@@ -57,6 +57,13 @@ class Renderer:
         try:
             self._browser = self._pw.chromium.launch(executable_path=exe) if exe else self._pw.chromium.launch()
         except Exception as e:  # noqa: BLE001
+            # Stop Playwright, otherwise this worker thread is left "inside an asyncio loop" and every
+            # later job fails with a misleading error that hides this one.
+            try:
+                self._pw.stop()
+            except Exception:  # noqa: BLE001
+                pass
+            self._pw = None
             raise RuntimeError("Could not start Chromium for rendering. Run:  python -m playwright install chromium  "
                                f"(details: {e})") from e
         return self
