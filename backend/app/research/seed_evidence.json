@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "retrieved": "2026-10-14",
+    "method": "Manual public-web research (official Etsy pages, Etsy Seller Handbook trend report, eRank and EverBee public blog posts, The Knot, BLS, SBA, NAR). No Etsy pages were scraped. Analyst signals are judgements made from the cited evidence and are labelled as such; they are replaced/blended with live Etsy API metrics once an API key is configured.",
+    "limitations": [
+      "No live Etsy search counts, prices, favorites or views were collected (Etsy Open API key not yet configured).",
+      "Example competitor listing URLs come from editorial roundups and were not re-verified as still active.",
+      "Price ranges marked 'assumption' are not observations."
+    ]
+  },
+  "niches": [
+    {
+      "slug": "wedding-invitation-templates",
+      "name": "Editable wedding invitation suites",
+      "category": "Wedding",
+      "keywords": ["editable wedding invitation template", "printable wedding invitation", "wedding invitation suite template", "minimalist wedding invitation template", "floral wedding invitation set", "boho wedding invitation template", "instant download wedding invitation"],
+      "seasonality": "seasonal: buying peaks Jan-Apr ahead of May-Oct weddings",
+      "product_types": ["wedding_suite"],
+      "analyst": {
+        "demand": 0.72, "demand_rationale": "About 2M US weddings a year and $510 average stationery spend (The Knot 2026). 44% of budget couples rely heavily on DIY.",
+        "competition": 0.35, "competition_rationale": "A mature, crowded category, and The Knot and Zola offer their own paper tools. Differentiating needs a complete matching suite.",
+        "price_low": 10, "price_high": 39, "price_observed": true, "price_note": "Prices of Etsy templates in The Knot's 2023 roundup. May be stale.",
+        "bundle": 0.95, "personalization": 0.95
+      },
+      "insights": {
+        "buyer_values": ["editable without design software", "matching suite (invite, RSVP, details)", "instant download", "print-at-home and print-shop sizes", "distinct aesthetic"],
+        "gaps": ["generic designs in a crowded market", "buyers also need coordinated day-of pieces (upsell)", "many templates require a paid editor account"],
+        "design_trends": ["fine-line botanicals", "modern serif + script pairing", "neutral and sage palettes", "arch frames"]
+      },
+      "evidence": [
+        {"kind": "demand", "claim": "About 2 million US couples married in 2025. 76% married between May and October, and the average engagement lasted 14 months.", "source_title": "The Knot Real Weddings Study 2026 Data Read-Out", "url": "https://images.theknot.com/rules/2026/the-knot-real-weddings-study-data-read-out-2026.pdf", "published": "2026-02"},
+        {"kind": "demand", "claim": "Couples who married in 2025 spent an average of $510 on invitations and stationery.", "source_title": "The Average Wedding Cost, According to The Knot Data", "url": "https://www.theknot.com/content/average-wedding-cost", "published": "2026-06"},
+        {"kind": "demand", "claim": "44% of couples spending under $12,000 relied heavily on DIY decor.", "source_title": "The Knot Real Weddings Study 2026 Data Read-Out", "url": "https://images.theknot.com/rules/2026/the-knot-real-weddings-study-data-read-out-2026.pdf", "published": "2026-02"},
+        {"kind": "competition", "claim": "EverBee says Etsy has more than 5 million printable listings, with invitations among the best sellers.", "source_title": "EverBee: How to make money with printables on Etsy", "url": "https://blog.everbee.io/how-to-make-money-with-printables-on-etsy", "published": "2024-11"},
+        {"kind": "listing", "claim": "Example competitor: printable wedding invitation template (Contemporary Calligraphy), about $11", "source_title": "Etsy listing (via The Knot roundup)", "url": "https://www.etsy.com/listing/708412546/printable-wedding-invitation-template", "published": "2023-04", "value": 11},
+        {"kind": "listing", "claim": "Example competitor: lavender wedding invitation set template, about $20", "source_title": "Etsy listing (via The Knot roundup)", "url": "https://www.etsy.com/listing/710737175/lavender-wedding-invitation-set-template", "published": "2023-04", "value": 20},
+        {"kind": "listing", "claim": "Example competitor: Good Vibrations wedding invitation template, about $39", "source_title": "Etsy listing (via The Knot roundup)", "url": "https://www.etsy.com/listing/1097305485", "published": "2023-04", "value": 39}
+      ]
+    },
+    {
+      "slug": "wedding-signage-bundle",
+      "name": "Wedding day-of signage bundles (welcome sign, seating chart, menu, table numbers)",
+      "category": "Wedding",
+      "keywords": ["wedding welcome sign template", "wedding seating chart template", "wedding signage bundle", "wedding menu template", "table number template", "editable welcome sign", "wedding template bundle"],
+      "seasonality": "seasonal: peaks Mar-Sep ahead of May-Oct weddings",
+      "product_types": ["wedding_suite"],
+      "analyst": {
+        "demand": 0.68, "demand_rationale": "The Knot lists welcome signs, seating charts and menus as core wedding signs. Average guest count is 117, which drives demand for seating charts.",
+        "competition": 0.5, "competition_rationale": "Printable signs ($9-13) undercut acrylic signs ($75-140+). Bundles compete on completeness, and many lack niche pieces.",
+        "price_low": 9, "price_high": 13, "price_observed": true, "price_note": "Prices for single digital signs in The Knot's Nov 2023 roundup. Bundles usually sell higher (not observed).",
+        "bundle": 1.0, "personalization": 0.9
+      },
+      "insights": {
+        "buyer_values": ["large-format sizes (18x24, 24x36)", "matches the invitation suite", "easy name/date edits", "cheap alternative to acrylic signs", "seating charts that handle 100-150+ guests"],
+        "gaps": ["typing seating chart names is tedious", "layouts break when guest counts change", "bundle pieces are often inconsistent", "printing large formats confuses buyers"],
+        "design_trends": ["oversized serif headings", "arch shapes", "minimal line botanicals"]
+      },
+      "evidence": [
+        {"kind": "demand", "claim": "The Knot lists the welcome sign, seating chart, menu and table identifiers as core wedding signage. Its own shop sells welcome signs from $45 and seating charts from $60.", "source_title": "The Knot - wedding signs", "url": "https://www.theknot.com/content/wedding-signs", "published": "2025-08"},
+        {"kind": "demand", "claim": "The average 2025 wedding had 117 guests (141 for couples spending over $41k).", "source_title": "The Knot Real Weddings Study 2026 Data Read-Out", "url": "https://images.theknot.com/rules/2026/the-knot-real-weddings-study-data-read-out-2026.pdf", "published": "2026-02"},
+        {"kind": "competition", "claim": "Digital sign templates ($9-$13) compete with physical acrylic and wood signs ($75-$140+) in the same roundup.", "source_title": "The Knot - wedding welcome signs", "url": "https://www.theknot.com/content/wedding-welcome-signs", "published": "2023-11"},
+        {"kind": "competition", "claim": "EverBee describes wedding 'product families' (seating chart, escort cards, welcome sign, table numbers, thank-you cards) as an expected seller strategy.", "source_title": "EverBee: How to sell digital downloads on Etsy passively", "url": "https://blog.everbee.io/how-to-sell-digital-downloads-on-etsy-passively", "published": "2026-09"},
+        {"kind": "listing", "claim": "Example competitor: unplugged ceremony welcome sign template, about $13", "source_title": "Etsy listing (via The Knot roundup)", "url": "https://www.etsy.com/listing/1448452491/unplugged-ceremony-welcome-sign-template", "published": "2023-11", "value": 13},
+        {"kind": "listing", "claim": "Example competitor: infographic wedding sign, about $10", "source_title": "Etsy listing (via The Knot roundup)", "url": "https://www.etsy.com/listing/1569756881/infographic-wedding-sign-unique-wedding", "published": "2023-11", "value": 10}
+      ]
+    },
+    {
+      "slug": "abstract-boho-wall-art",
+      "name": "Printable abstract / boho / mid-century wall art sets",
+      "category": "Wall Art",
+      "keywords": ["printable wall art", "abstract printable art", "boho wall art printable", "mid century modern print", "neutral abstract wall art", "set of 3 prints", "gallery wall set", "digital download art print"],
+      "seasonality": "evergreen",
+      "product_types": ["wall_art_set"],
+      "analyst": {
+        "demand": 0.88, "demand_rationale": "'wall art' was the #4 Etsy search in Q3 2026 and #7 in Sep 2026. 'digital products' (#5) and 'poster' (#17) are rising fast (eRank).",
+        "competition": 0.2, "competition_rationale": "Very saturated. EverBee calls generic printable wall art 'crowded' and recommends a sharper sub-niche angle.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 4, "assumed_price_high": 15,
+        "price_note": "ASSUMPTION, not observed: no verified prices were collected. Connect the Etsy API for live price data.",
+        "bundle": 0.85, "personalization": 0.3
+      },
+      "insights": {
+        "buyer_values": ["multiple frame ratios in one download", "high-resolution files", "coordinated palettes for gallery walls", "instant download"],
+        "gaps": ["generic designs are saturated, so a distinct style or theme is needed", "sets often lack a frame-size guide", "seasonal themes are underused"],
+        "design_trends": ["whimsical decor (Etsy: +61% with Gen Z)", "warm terracotta and sage neutrals", "organic cut-paper shapes", "textured, print-like grain"]
+      },
+      "evidence": [
+        {"kind": "demand", "claim": "'wall art' ranked #4 among Etsy searches in Q3 2026. 'digital products' ranked #5 (up from #84) and 'poster' #17 (up from #51).", "source_title": "eRank: Top Etsy Searches Trending in Q3 2026", "url": "https://help.erank.com/blog/top-etsy-searches-q3-2026/", "published": "2026-10", "value": 4},
+        {"kind": "demand", "claim": "In September 2026 Etsy searches, 'wall art' ranked #7 and 'digital products' #3.", "source_title": "eRank: Top Keywords on Etsy Now", "url": "https://help.erank.com/blog/top-keywords-on-etsy/", "published": "2026-10", "value": 7},
+        {"kind": "trend", "claim": "Whimsical decor is up 61% with Gen Z shoppers (3 months vs a year earlier, US).", "source_title": "Etsy Seller Trend Report: Fall and Winter 2026", "url": "https://www.etsy.com/seller-handbook/article/1521255894814", "published": "2026-10"},
+        {"kind": "competition", "claim": "EverBee calls generic printable wall art crowded ('more saturation, weaker positioning') and recommends narrower sub-niches.", "source_title": "EverBee: Best-selling Etsy categories right now", "url": "https://blog.everbee.io/best-selling-etsy-categories-right-now", "published": "2026-09"}
+      ]
+    },
+    {
+      "slug": "whimsical-wall-art",
+      "name": "Whimsical / playful printable wall art (discovered trend)",
+      "category": "Wall Art",
+      "discovered": true,
+      "parent": "abstract-boho-wall-art",
+      "keywords": ["whimsical wall art", "whimsical print", "colorful abstract print", "playful wall art printable", "funky wall art", "maximalist print"],
+      "seasonality": "evergreen",
+      "product_types": ["wall_art_set"],
+      "analyst": {
+        "demand": 0.7, "demand_rationale": "Discovered from Etsy's Fall/Winter 2026 report (whimsical decor +61% with Gen Z) plus strong overall 'wall art' search demand.",
+        "competition": 0.45, "competition_rationale": "A narrower sub-niche than generic neutral abstract art. The trend is newer, so the incumbents are likely weaker (not verified with live data).",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 4, "assumed_price_high": 14,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.8, "personalization": 0.2
+      },
+      "insights": {"buyer_values": ["bold color", "personality", "sets that mix shapes and color"], "gaps": ["few coordinated whimsical sets in multiple ratios"], "design_trends": ["saturated palettes", "playful organic shapes", "checker and wavy motifs"]},
+      "evidence": [
+        {"kind": "trend", "claim": "Whimsical decor is up 61% with Gen Z shoppers (Etsy internal data, as of Sep 14, 2026).", "source_title": "Etsy Seller Trend Report: Fall and Winter 2026", "url": "https://www.etsy.com/seller-handbook/article/1521255894814", "published": "2026-10"},
+        {"kind": "demand", "claim": "'wall art' was a top-5 Etsy search in Q3 2026.", "source_title": "eRank: Top Etsy Searches Trending in Q3 2026", "url": "https://help.erank.com/blog/top-etsy-searches-q3-2026/", "published": "2026-10"}
+      ]
+    },
+    {
+      "slug": "beauty-price-list-templates",
+      "name": "Salon / lash / nail price lists and marketing kits",
+      "category": "Small Business",
+      "keywords": ["price list template", "salon price list template", "lash price list", "nail price list template", "beauty service menu template", "esthetician price list", "salon social media templates"],
+      "seasonality": "evergreen",
+      "product_types": ["business_kit"],
+      "business_industry": "beauty",
+      "analyst": {
+        "demand": 0.55, "demand_rationale": "A large self-employed buyer base: about 671k barbers, hairstylists and cosmetologists (80% of barbers and 48% of stylists self-employed) and 202k nail techs. BLS projects 7-9% growth.",
+        "competition": 0.5, "competition_rationale": "No direct Etsy competition data collected. Free Canva templates are a substitute.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 6, "assumed_price_high": 18,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.9, "personalization": 0.8
+      },
+      "insights": {"buyer_values": ["matches salon branding", "print and social formats", "specific to the service"], "gaps": ["one-off price lists without matching social and promo assets"], "design_trends": ["soft neutrals", "elegant serif headings", "arch frames"]},
+      "evidence": [
+        {"kind": "demand", "claim": "About 670,800 barbers, hairstylists and cosmetologists worked in 2025, with 7% projected growth. About 80% of barbers and 48% of stylists are self-employed.", "source_title": "BLS Occupational Outlook Handbook: Barbers, Hairstylists, and Cosmetologists", "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm", "published": "2026-08"},
+        {"kind": "demand", "claim": "About 201,800 manicurists and pedicurists worked in 2025, with 9% projected growth.", "source_title": "BLS Occupational Outlook Handbook: Manicurists and Pedicurists", "url": "https://www.bls.gov/ooh/personal-care-and-service/manicurists-and-pedicurists.htm", "published": "2026-08"}
+      ]
+    },
+    {
+      "slug": "small-business-social-templates",
+      "name": "Small-business social media + flyer template kits",
+      "category": "Small Business",
+      "keywords": ["instagram templates canva", "social media templates", "instagram post template", "instagram story templates", "small business flyer template", "business marketing bundle"],
+      "seasonality": "evergreen",
+      "product_types": ["business_kit"],
+      "business_industry": "boutique",
+      "analyst": {
+        "demand": 0.6, "demand_rationale": "36.2M US small businesses (SBA 2026). EverBee calls editable social templates common winners.",
+        "competition": 0.3, "competition_rationale": "Competes with Canva's free and Pro templates. Generic aesthetics are saturated. Flyer terms are absent from eRank's top keyword lists.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 8, "assumed_price_high": 25,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.95, "personalization": 0.8
+      },
+      "insights": {"buyer_values": ["large post + story bundles", "industry-specific", "brand color customization"], "gaps": ["niche-specific packs with a content plan"], "design_trends": ["editorial typography", "earthy palettes"]},
+      "evidence": [
+        {"kind": "demand", "claim": "The US has 36,207,130 small businesses.", "source_title": "SBA Office of Advocacy FAQ 2026", "url": "https://advocacy.sba.gov/2026/02/03/frequently-asked-questions-about-small-business-2026/", "published": "2026-02"},
+        {"kind": "demand", "claim": "EverBee calls editable social media templates common digital download winners.", "source_title": "EverBee: How to sell digital downloads on Etsy passively", "url": "https://blog.everbee.io/how-to-sell-digital-downloads-on-etsy-passively", "published": "2026-09"},
+        {"kind": "competition", "claim": "EverBee warns that easy copying makes design quality and niche specificity critical.", "source_title": "EverBee: Best-selling Etsy categories right now", "url": "https://blog.everbee.io/best-selling-etsy-categories-right-now", "published": "2026-09"}
+      ]
+    },
+    {
+      "slug": "real-estate-marketing-templates",
+      "name": "Real estate agent marketing kits",
+      "category": "Small Business",
+      "keywords": ["real estate templates", "open house flyer template", "realtor instagram templates", "just listed template", "just sold template", "realtor marketing bundle"],
+      "seasonality": "evergreen (spring selling season likely bump - not verified)",
+      "product_types": ["business_kit"],
+      "business_industry": "real_estate",
+      "analyst": {
+        "demand": 0.5, "demand_rationale": "NAR has 1M+ members and social media is a top lead source. Existing-home sales remain low (3.99M SAAR in Sep 2026).",
+        "competition": 0.45, "competition_rationale": "No direct Etsy data collected.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 10, "assumed_price_high": 30,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.95, "personalization": 0.8
+      },
+      "insights": {"buyer_values": ["just listed / just sold / open house sets", "brokerage-neutral design"], "gaps": ["brokerage compliance (logo, disclosure areas) often missing"], "design_trends": ["clean editorial layouts", "navy and neutral palettes"]},
+      "evidence": [
+        {"kind": "demand", "claim": "NAR describes itself as a 'million-plus member organization'.", "source_title": "NAR Membership Monthly Report", "url": "https://www.nar.realtor/membership/monthly-report", "published": null},
+        {"kind": "demand", "claim": "Social media, CRM and the MLS produce the most quality leads (NAR 2025 Technology Report). September 2026 existing-home sales: 3.99M SAAR.", "source_title": "NAR Quick Real Estate Statistics", "url": "https://www.nar.realtor/research-and-statistics/quick-real-estate-statistics", "published": "2026-10"}
+      ]
+    },
+    {
+      "slug": "budget-planner-printables",
+      "name": "Budget planner printables",
+      "category": "Planners",
+      "keywords": ["budget planner printable", "monthly budget template", "paycheck budget planner", "sinking funds tracker", "debt payoff tracker", "budget binder printable"],
+      "seasonality": "evergreen (New Year bump likely - not verified)",
+      "product_types": ["budget_planner"],
+      "analyst": {
+        "demand": 0.55, "demand_rationale": "EverBee lists budget spreadsheets and planners as recognized 'common winners'. Budget terms were not in eRank's 2026 top keyword lists.",
+        "competition": 0.35, "competition_rationale": "Saturation risk is high. EverBee says near-identical bestsellers dominate many planner searches.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 4, "assumed_price_high": 15,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.85, "personalization": 0.3
+      },
+      "insights": {"buyer_values": ["clean, printable pages", "letter and A4", "sinking funds and debt trackers"], "gaps": ["a sharper angle is needed (e.g., paycheck-based, couples, irregular income)"], "design_trends": ["minimal neutral", "soft color headers"]},
+      "evidence": [
+        {"kind": "demand", "claim": "EverBee lists budget spreadsheets among common digital products buyers already recognize.", "source_title": "EverBee: How to sell digital downloads on Etsy passively", "url": "https://blog.everbee.io/how-to-sell-digital-downloads-on-etsy-passively", "published": "2026-09"},
+        {"kind": "demand", "claim": "Planners, checklists and bookkeeping templates are listed among best-selling printable niches.", "source_title": "EverBee: How to make money with printables on Etsy", "url": "https://blog.everbee.io/how-to-make-money-with-printables-on-etsy", "published": "2024-11"},
+        {"kind": "competition", "claim": "EverBee flags 'easy saturation' as the main risk for digital products.", "source_title": "EverBee: Best-selling Etsy categories right now", "url": "https://blog.everbee.io/best-selling-etsy-categories-right-now", "published": "2026-09"}
+      ]
+    },
+    {
+      "slug": "christmas-holiday-printables",
+      "name": "Christmas / holiday printable decor and wall art",
+      "category": "Seasonal",
+      "keywords": ["christmas printable", "christmas wall art printable", "christmas printable decor", "holiday print set", "winter wall art printable", "christmas png"],
+      "seasonality": "seasonal: Sep-Dec (list now - Oct)",
+      "product_types": ["wall_art_set"],
+      "art_theme": "holiday",
+      "analyst": {
+        "demand": 0.82, "demand_rationale": "'christmas' was the #9 Etsy search in Q3 2026 (up from #41), with a 141% CTR. Etsy reports whimsy ornaments +62% in favorites.",
+        "competition": 0.3, "competition_rationale": "EverBee warns that late launches struggle against established holiday listings.",
+        "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 3, "assumed_price_high": 10,
+        "price_note": "ASSUMPTION, not observed.", "bundle": 0.75, "personalization": 0.3
+      },
+      "insights": {"buyer_values": ["instant decor", "coordinated sets"], "gaps": ["whimsical holiday styles"], "design_trends": ["whimsy", "frosted palettes", "vintage holiday"]},
+      "evidence": [
+        {"kind": "demand", "claim": "In Q3 2026 'christmas' was the #9 Etsy search (up from #41), with a 141% Q3 CTR.", "source_title": "eRank: Top Etsy Searches Trending in Q3 2026", "url": "https://help.erank.com/blog/top-etsy-searches-q3-2026/", "published": "2026-10", "value": 9},
+        {"kind": "trend", "claim": "Etsy Fall/Winter 2026: whimsy ornaments +62% in favorites and 'Friendsmas' party supply sales +37%.", "source_title": "Etsy Seller Trend Report: Fall and Winter 2026", "url": "https://www.etsy.com/seller-handbook/article/1521255894814", "published": "2026-10"},
+        {"kind": "competition", "claim": "Late launches into hot holiday searches are hard because established listings already have momentum.", "source_title": "EverBee: Planning your shop around Q4 demand", "url": "https://blog.everbee.io/how-do-i-plan-my-etsy-shop-around-q4-holiday-demand", "published": "2026-09"}
+      ]
+    },
+    {
+      "slug": "habit-productivity-printables",
+      "name": "Habit trackers and productivity planner printables",
+      "category": "Planners",
+      "keywords": ["habit tracker printable", "daily planner printable", "weekly planner printable", "goal planner", "to do list printable", "undated planner pdf"],
+      "seasonality": "evergreen",
+      "product_types": ["budget_planner"],
+      "planner_kind": "habit",
+      "analyst": {"demand": 0.5, "demand_rationale": "EverBee lists planners and checklists as best-selling printable types. eRank flags self-help workbook terms as spiky.", "competition": 0.3, "competition_rationale": "Saturation risk.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 3, "assumed_price_high": 12, "price_note": "ASSUMPTION, not observed.", "bundle": 0.8, "personalization": 0.3},
+      "insights": {"buyer_values": ["simple printable pages"], "gaps": [], "design_trends": ["minimal"]},
+      "evidence": [
+        {"kind": "demand", "claim": "Planners, checklists, to-do lists and chore charts are listed as best-selling printable niches.", "source_title": "EverBee: How to make money with printables on Etsy", "url": "https://blog.everbee.io/how-to-make-money-with-printables-on-etsy", "published": "2024-11"},
+        {"kind": "trend", "claim": "eRank flagged 'burnout recovery workbook' as a new niche (~6.6K searches), then called it a one-month spike.", "source_title": "eRank: Fastest growing Etsy keywords Summer 2026", "url": "https://help.erank.com/blog/trend-report/fastest-growing-etsy-keywords-summer-2026/", "published": "2026-07"}
+      ]
+    },
+    {
+      "slug": "kids-birthday-invitations",
+      "name": "Kids birthday invitations (original, non-licensed themes)",
+      "category": "Party",
+      "keywords": ["kids birthday invitation template", "editable birthday invitation", "first birthday invitation", "dinosaur birthday invitation", "girl birthday invitation editable"],
+      "seasonality": "evergreen",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.75, "demand_rationale": "Character birthday invitations reached eRank's US Top 20 (July 2026).", "competition": 0.35, "competition_rationale": "Most of the measured demand is for licensed characters, which are off limits. The original-theme lane is smaller.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 5, "assumed_price_high": 15, "price_note": "ASSUMPTION, not observed.", "bundle": 0.8, "personalization": 0.95},
+      "insights": {"buyer_values": ["easy editing", "matching party decor"], "gaps": ["original themes that don't infringe IP"], "design_trends": []},
+      "risk_flags": ["Top search volume is for trademarked characters. Never use protected characters."],
+      "evidence": [
+        {"kind": "demand", "claim": "'sonic birthday invitation' ranked #10 in eRank's US Top 20 for July 2026 (up from #39).", "source_title": "eRank: Top Keywords on Etsy July 2026", "url": "https://help.erank.com/blog/top-keywords-on-etsy-july-2026/", "published": "2026-08"},
+        {"kind": "competition", "claim": "eRank says character invitation searches are 'off limits due to intellectual property (IP) protections'.", "source_title": "eRank: Top Keywords on Etsy July 2026", "url": "https://help.erank.com/blog/top-keywords-on-etsy-july-2026/", "published": "2026-08"}
+      ]
+    },
+    {
+      "slug": "digital-planners-goodnotes",
+      "name": "Digital planners (GoodNotes / hyperlinked PDF)",
+      "category": "Planners",
+      "keywords": ["digital planner", "goodnotes planner", "ipad planner", "2027 digital planner", "hyperlinked planner"],
+      "seasonality": "seasonal: Oct-Jan peak for dated planners (inferred)",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.72, "demand_rationale": "'digital planner' ranked #28 in eRank's CTR Roundup (Oct 2026).", "competition": 0.25, "competition_rationale": "Saturation risk, with established bestsellers.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 5, "assumed_price_high": 20, "price_note": "ASSUMPTION, not observed.", "bundle": 0.6, "personalization": 0.3},
+      "insights": {"buyer_values": [], "gaps": [], "design_trends": []},
+      "evidence": [
+        {"kind": "demand", "claim": "'digital planner' ranked #28 in eRank's Top 50 CTR Roundup of US Etsy keywords.", "source_title": "eRank: Top Keywords on Etsy Now", "url": "https://help.erank.com/blog/top-keywords-on-etsy/", "published": "2026-10"}
+      ]
+    },
+    {
+      "slug": "classroom-educational-printables",
+      "name": "Classroom posters and educational worksheets",
+      "category": "Education",
+      "keywords": ["classroom posters printable", "kindergarten worksheets", "math worksheets printable", "printable flashcards", "homeschool printables"],
+      "seasonality": "seasonal: Jul-Sep peak (back to school)",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.55, "demand_rationale": "'back to school' reached #14 in eRank's July 2026 US Top 20. 'teacher' ranked #143 in the CTR roundup.", "competition": 0.35, "competition_rationale": "Teachers Pay Teachers is a major competing marketplace.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 3, "assumed_price_high": 10, "price_note": "ASSUMPTION, not observed.", "bundle": 0.7, "personalization": 0.2},
+      "insights": {"buyer_values": [], "gaps": [], "design_trends": []},
+      "evidence": [
+        {"kind": "demand", "claim": "'back to school' ranked #14 in eRank's US Top 20 for July 2026 (up from #109).", "source_title": "eRank: Top Keywords on Etsy July 2026", "url": "https://help.erank.com/blog/top-keywords-on-etsy-july-2026/", "published": "2026-08"}
+      ]
+    },
+    {
+      "slug": "resume-templates",
+      "name": "Resume templates",
+      "category": "Professional",
+      "keywords": ["resume template", "resume template word", "modern resume", "cv template", "cover letter template"],
+      "seasonality": "evergreen",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.35, "demand_rationale": "Only dated, qualitative evidence: resumes appear in EverBee's 2024 printable list but not in any 2026 eRank keyword report.", "competition": 0.3, "competition_rationale": "Unknown; likely saturated.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 5, "assumed_price_high": 15, "price_note": "ASSUMPTION, not observed.", "bundle": 0.6, "personalization": 0.8},
+      "insights": {"buyer_values": [], "gaps": [], "design_trends": []},
+      "evidence": [
+        {"kind": "demand", "claim": "Resumes are listed among best-selling printable niches. No figures are given.", "source_title": "EverBee: How to make money with printables on Etsy", "url": "https://blog.everbee.io/how-to-make-money-with-printables-on-etsy", "published": "2024-11"}
+      ]
+    },
+    {
+      "slug": "baby-shower-printables",
+      "name": "Baby shower games and printables",
+      "category": "Party",
+      "keywords": ["baby shower games printable", "baby shower game bundle", "baby shower invitation template", "baby shower bingo"],
+      "seasonality": "evergreen",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.4, "demand_rationale": "Weak evidence: only a generic 'party games' mention (EverBee).", "competition": 0.4, "competition_rationale": "No data.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 4, "assumed_price_high": 12, "price_note": "ASSUMPTION, not observed.", "bundle": 0.9, "personalization": 0.6},
+      "insights": {"buyer_values": [], "gaps": [], "design_trends": []},
+      "evidence": [
+        {"kind": "demand", "claim": "EverBee lists 'party games' among digital product types that can work.", "source_title": "EverBee: Best-selling Etsy categories right now", "url": "https://blog.everbee.io/best-selling-etsy-categories-right-now", "published": "2026-09"}
+      ]
+    },
+    {
+      "slug": "coloring-pages",
+      "name": "Printable coloring pages / books (discovered)",
+      "category": "Emerging",
+      "discovered": true,
+      "keywords": ["coloring book", "coloring pages printable", "adult coloring pages", "cozy coloring pages"],
+      "seasonality": "evergreen",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.7, "demand_rationale": "eRank: 'coloring book' averaged about 15K searches (summer 2026 peak).", "competition": 0.35, "competition_rationale": "No direct data.", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 3, "assumed_price_high": 12, "price_note": "ASSUMPTION, not observed.", "bundle": 0.85, "personalization": 0.2},
+      "insights": {"buyer_values": [], "gaps": [], "design_trends": []},
+      "evidence": [
+        {"kind": "demand", "claim": "'coloring book' averaged about 15K Etsy searches, back at its summer peak.", "source_title": "eRank: Fastest growing Etsy keywords Summer 2026", "url": "https://help.erank.com/blog/trend-report/fastest-growing-etsy-keywords-summer-2026/", "published": "2026-07"}
+      ]
+    },
+    {
+      "slug": "crochet-patterns",
+      "name": "PDF crochet / knitting patterns (discovered)",
+      "category": "Emerging",
+      "discovered": true,
+      "keywords": ["crochet pattern", "amigurumi pattern", "blanket crochet pattern"],
+      "seasonality": "evergreen",
+      "product_types": ["not_supported_yet"],
+      "analyst": {"demand": 0.9, "demand_rationale": "'crochet pattern' was #7 in Q3 2026 Etsy searches (up from #123).", "competition": 0.35, "competition_rationale": "High competition (eRank recommends niching down).", "price_low": null, "price_high": null, "price_observed": false, "assumed_price_low": 4, "assumed_price_high": 9, "price_note": "ASSUMPTION, not observed.", "bundle": 0.5, "personalization": 0.1},
+      "insights": {"buyer_values": ["clear skill labels", "strong cover images"], "gaps": [], "design_trends": []},
+      "risk_flags": ["Requires real craft expertise and tested patterns. Not suitable for automated generation."],
+      "evidence": [
+        {"kind": "demand", "claim": "'crochet pattern' ranked #7 among Q3 2026 Etsy searches, up from #123 in Q3 2025.", "source_title": "eRank: Top Etsy Searches Trending in Q3 2026", "url": "https://help.erank.com/blog/top-etsy-searches-q3-2026/", "published": "2026-10"}
+      ]
+    }
+  ]
+}
